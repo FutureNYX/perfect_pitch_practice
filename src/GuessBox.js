@@ -41,10 +41,12 @@ export const GuessBox = () => {
           setNoteBtnDisplay('play');
           setProgressionBtn('reveal')
         }}}>{progressionBtnName}</button>
-      <button onClick={()=>{setRange(array_cycler(noteRange,rangeName));
-      setNoteKey(getRandomNoteKey(rangeName));
+      <div>
+        <button onClick={()=>{setRange(array_cycler(noteRange,rangeName));
+          setNoteKey(getRandomNoteKey(rangeName));
           setNoteBtnDisplay('play');
           setProgressionBtn('reveal')}}>{rangeName} keys</button>
+      </div>
     </div>
   )
 }
