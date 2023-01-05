@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/perfect_pitch_practice/static/css/main.0e31f901.css",
-    "main.js": "/perfect_pitch_practice/static/js/main.01582401.js",
+    "main.css": "/perfect_pitch_practice/static/css/main.ef99e94d.css",
+    "main.js": "/perfect_pitch_practice/static/js/main.bbf0d7b0.js",
     "static/js/787.b00d3fc1.chunk.js": "/perfect_pitch_practice/static/js/787.b00d3fc1.chunk.js",
     "static/media/Db8.mp3": "/perfect_pitch_practice/static/media/Db8.119f56c1faec026cac75.mp3",
     "static/media/A1.mp3": "/perfect_pitch_practice/static/media/A1.da4309272c94bb91ae54.mp3",
@@ -91,12 +91,12 @@
     "static/media/Gb6.mp3": "/perfect_pitch_practice/static/media/Gb6.b1cdfb6f5c7206354242.mp3",
     "static/media/Gb7.mp3": "/perfect_pitch_practice/static/media/Gb7.0e0d2c634574a6f84284.mp3",
     "index.html": "/perfect_pitch_practice/index.html",
-    "main.0e31f901.css.map": "/perfect_pitch_practice/static/css/main.0e31f901.css.map",
-    "main.01582401.js.map": "/perfect_pitch_practice/static/js/main.01582401.js.map",
+    "main.ef99e94d.css.map": "/perfect_pitch_practice/static/css/main.ef99e94d.css.map",
+    "main.bbf0d7b0.js.map": "/perfect_pitch_practice/static/js/main.bbf0d7b0.js.map",
     "787.b00d3fc1.chunk.js.map": "/perfect_pitch_practice/static/js/787.b00d3fc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e31f901.css",
-    "static/js/main.01582401.js"
+    "static/css/main.ef99e94d.css",
+    "static/js/main.bbf0d7b0.js"
   ]
 }
