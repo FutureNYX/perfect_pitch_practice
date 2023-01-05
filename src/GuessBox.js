@@ -16,7 +16,7 @@ export const GuessBox = () => {
   }
 
   const noteRange = ['all', 'white', 'black'];
-  const progressionBtn = ['reveal', 'another'];
+  const progressionBtn = ['✔', '➜'];
   const [rangeName, setRange] = useState(noteRange[0]);
   const [progressionBtnName, setProgressionBtn] = useState(progressionBtn[0]);
   const [noteKey, setNoteKey] = useState(()=>getRandomNoteKey('all'));
@@ -31,21 +31,21 @@ export const GuessBox = () => {
 
   return (
     <div>
-      <button onClick={playNote}>{noteBtnDisplay}</button>
-      <button onClick={()=>{if(progressionBtnName === 'reveal'){
+      <button className='button' onClick={playNote}>{noteBtnDisplay}</button>
+      <button onClick={()=>{if(progressionBtnName === '✔'){
         setNoteBtnDisplay(noteKey);
-        setProgressionBtn('another')
+        setProgressionBtn('➜')
         }
         else{
           setNoteKey(getRandomNoteKey(rangeName));
           setNoteBtnDisplay('play');
-          setProgressionBtn('reveal')
+          setProgressionBtn('✔')
         }}}>{progressionBtnName}</button>
       <div>
-        <button onClick={()=>{setRange(array_cycler(noteRange,rangeName));
+        <button className='button' onClick={()=>{setRange(array_cycler(noteRange,rangeName));
           setNoteKey(getRandomNoteKey(rangeName));
           setNoteBtnDisplay('play');
-          setProgressionBtn('reveal')}}>{rangeName} keys</button>
+          setProgressionBtn('✔')}}>{rangeName} keys</button>
       </div>
     </div>
   )
